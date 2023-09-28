@@ -30,6 +30,11 @@ Após baixar o projeto e extraí-lo para uma pasta local, você pode abrir com o
 - Clique no ícone referente ao Maven no canto superior direito;
 - CLique em "Reload All Maven Projects".
 
+Em seguida, é necessário informar para o Spring as informações sobre o banco de dados MySQL. Sendo assim, faça:
+
+- Acesse a pasta `src/main/resources` e clique no arquivo "application.properties";
+- Nos campos "spring.datasource.url", "spring.datasource.username" e "spring.datasource.password" informe a url, o usuário e a senha do seu banco de dados.
+
 Depois de realizar esse procedimento, será preciso executar o projeto. Para isso, faça:
 
 - Abra o arquivo "ApiApplication.java" na pasta `src/main/java/forum/alura/api`;
